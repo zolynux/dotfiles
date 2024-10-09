@@ -1,14 +1,53 @@
 #! /bin/sh
 
-alias ls='exa -a --color=auto'
-alias ll='exa -l --color=auto'
-alias la='exa -la --color=auto'
-alias l='exa -lah --color=auto'
+# list of directory and filder
+alias ls='exa -1 --icons=auto --color=auto'
+alias ll='exa -lha --icons=auto --color=auto'
+alias la='exa -la --icons=auto --color=auto'
+alias l='exa -lh --icons=auto --color=auto'
+
+# Clear on commands
+alias c='clear'
+alias cls='clear; fastfetch'
+
+
 alias cat='bat'
-alias ..='cd ..; pwd'
-alias ...='cd ../..; pwd'
 alias mkdir='mkdir -p'
 alias tree='exa -T'
-alias dotfiles="cd ~/.dotfiles; pwd"
+
+# change to directory with my dotfiles
+alias .dotfiles="cd ~/.dotfiles; pwd"
 alias dotfilesgit="git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
+
+
+
 alias grep='grep --color=auto'
+
+alias z='cd'
+
+alias pac='sudo pacman -S'
+
+alias reload='source ~/.zshrc'
+
+# Hnady change dir shortcuts
+alias ..='cd ..; pwd'
+alias ...='cd ../..; pwd'
+alias .3='cd ../../..; pwd'
+alias .4='cd ../../../..; pwd'
+alias .5='cd ../../../../..; pwd'
+
+alias fast='fastfetch'
+alias ff='fastfetch'
+
+# Editors
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+
+# editor with zshrc to faster on commands
+alias vizs='nvim ~/.zshrc'
+alias zedzs='zed ~/.zshrc'
+alias codezs='code ~/.zshrc'
+alias vi-alias='nvim ~/.dotfiles/.config/zsh/aliases.sh'
+alias vi-env='nvim ~/.dotfiles/.config/zsh/env.sh'
+

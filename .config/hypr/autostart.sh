@@ -2,5 +2,8 @@
 
 waybar &
 hyprpaper &
+
 nm-applet &
 
+# systray volume
+volumeicon &
