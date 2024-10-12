@@ -48,6 +48,15 @@ alias vim='nvim'
 alias vizs='nvim ~/.zshrc'
 alias zedzs='zed ~/.zshrc'
 alias codezs='code ~/.zshrc'
-alias vi-alias='nvim ~/.dotfiles/.config/zsh/aliases.sh'
-alias vi-env='nvim ~/.dotfiles/.config/zsh/env.sh'
+alias vialias='nvim ~/.dotfiles/.config/zsh/aliases.sh'
+alias vienv='nvim ~/.dotfiles/.config/zsh/env.sh'
+alias vidotfiles='cd ~/.dotfiles && nvim .'
 
+# git shortcuts on commands
+alias gi="git init"
+alias ga="git add"
+alias gaa="git add ."
+alias gmm="git commit -m"
+alias gpll="git pull -u origin"
+alias gpsh="git push -u origin"
+alias gitignore="touch .gitignore"
