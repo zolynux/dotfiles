@@ -35,3 +35,6 @@ source ~/.config/zsh/env.sh
 
 # Alias
 source ~/.config/zsh/aliases.sh
+
+# bindings
+bindkey '^H' backward-kill-word
