@@ -4,3 +4,4 @@ export PATH=/home/zolynux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/us
 
 export PATH=/usr/share/code/bin:$PATH
 export PATH=/home/zolynux/.cargo/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH

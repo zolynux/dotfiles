@@ -17,6 +17,7 @@ alias tree='exa -T'
 
 # change to directory with my dotfiles
 alias .dotfiles="cd ~/.dotfiles; pwd"
+alias dotfiles="cd ~/.dotfiles; pwd"
 alias dotfilesgit="git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
 
 
@@ -51,6 +52,8 @@ alias codezs='code ~/.zshrc'
 alias vialias='nvim ~/.dotfiles/.config/zsh/aliases.sh'
 alias vienv='nvim ~/.dotfiles/.config/zsh/env.sh'
 alias vidotfiles='cd ~/.dotfiles && nvim .'
+alias editor-hyprland='cd ~/.dotfiles/.config/hypr && nvim .'
+alias cat-hyprland-bindkeys='cat ~/.dotfiles/.config/hypr/binds.conf'
 
 # git shortcuts on commands
 alias gi="git init"
@@ -60,3 +63,4 @@ alias gmm="git commit -m"
 alias gpll="git pull -u origin"
 alias gpsh="git push -u origin"
 alias gitignore="touch .gitignore"
+alias py='python'
